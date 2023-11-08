@@ -1,0 +1,9 @@
+{
+    "name": "info_epl",
+    "version": "1.0.0",
+    "description": "info_epl",
+    "main": "index.js",
+    "repository": "",
+    "author": "Park Sang Won",
+    "license": "MIT"
+}
