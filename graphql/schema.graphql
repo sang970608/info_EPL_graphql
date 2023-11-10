@@ -1,11 +1,19 @@
-type Person{
+type Team{
     id: Int!,
+    teamname: String!,
+    stadium: String!,
+    director: String!,
+    players: [Players]
+}
+
+type Players{
+    backNo: Int!,
     name: String!,
-    age: Int!,
-    gender: String!
+    position: String!,
+    captain: Boolean
 }
 
 type Query{
-    people: [Person]!
-    person(id: Int!): Person
+    teams: [Team]!
+    team(id: Int!): Team
 }
