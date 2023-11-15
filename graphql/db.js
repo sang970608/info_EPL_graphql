@@ -27,7 +27,8 @@ export let team = [
         id: 5,
         teamname : "첼시 (Chelsea)",
         stadium: "스탬포드 브릿지 (Stamford Bridge)",
-        director : "마우리시오 포체티노 (Mauricio Pochettino)"
+        director : "마우리시오 포체티노 (Mauricio Pochettino)",
+        players : chelsea
     },{
         id: 6,
         teamname : "맨체스터 유나이티드 (Manchester United)",
@@ -545,12 +546,80 @@ export let arsenal = [
         position: "GK"
     },{
         backNo: 35,
-        name: "알렉산드르 진첸코",
+        name: "올렉산드르 진첸코",
         position: "DF"
     },{
         backNo: 41,
         name: "데클런 라이스",
         position: "MF"
+    }
+]
+
+export let chelsea = [
+    {
+        backNo: 1,
+        name: "로베르트 산체스",
+        position: "GK"
+    },{
+        backNo: 2,
+        name: "악셀 디사시",
+        position: "DF"
+    },{
+        backNo: 3,
+        name: "마르크 쿠쿠렐라",
+        position: "DF"
+    },{
+        backNo: 5,
+        name: "브누아 바디아실",
+        position: "DF"
+    },{
+        backNo: 6,
+        name: "티아고 실바",
+        position: "DF"
+    },{
+        backNo: 7,
+        name: "라힘 스털링",
+        position: "FW"
+    },{
+        backNo: 8,
+        name: "엔소 페르난데스",
+        position: "MF"
+    },{
+        backNo: 10,
+        name: "미하일로 무드리크",
+        position: "FW"
+    },{
+        backNo: 11,
+        name: "노니 마두에케",
+        position: "FW"
+    },{
+        backNo: 13,
+        name: "마커스 베티넬리",
+        position: "GK"
+    },{
+        backNo: 14,
+        name: "트레보 찰로바",
+        position: "DF"
+    },{
+        backNo: 15,
+        name: "니콜라 잭슨",
+        position: "FW"
+    },{
+        backNo: 16,
+        name: "레슬리 우고추쿠",
+        position: "MF"
+    },{
+        backNo: 17,
+        name: "카니 추쿠에메카",
+        position: "MF"
+    },{
+        backNo: 18,
+        name: "크리스토퍼 은쿤쿠",
+        position: "FW"
+    },{
+        backNo: 2,
+        name: "악셀 디사시",
+        position: "DF"
     }
 ]
 
