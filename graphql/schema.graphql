@@ -1,19 +1,12 @@
-type Team{
+type Movie{
     id: Int!,
-    teamname: String!,
-    stadium: String!,
-    director: String!,
-    players: [Players]
-}
-
-type Players{
-    backNo: Int!,
     name: String!,
-    position: String!,
-    captain: Boolean
+    rating: Float!,
+    summary: String!,
+    language: String!,
+    medium_cover_image: String!
 }
 
 type Query{
-    teams: [Team]!
-    team(id: Int!): Team
+    movies: [limit: Int!, rating: Float]: [Movie]!
 }
